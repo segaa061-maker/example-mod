@@ -11,7 +11,18 @@
 	"version": "v1.0.0",
 	"developer": "minchik",
 	"description": "My first Geode mod",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
+	"settings": {
+		"noclip": {
+			"type": "bool",
+			"name": "Noclip",
+			"default": false
+		},
+		"speed": {
+			"type": "float",
+			"name": "Speed",
+			"default": 1.0,
+			"min": 0.1,
+			"max": 5.0
+		}
 	}
 }
